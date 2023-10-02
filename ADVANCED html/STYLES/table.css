@@ -1,0 +1,17 @@
+table,th,td{
+    border: 1px;border-style: solid;border-color: black;
+    border-collapse: collapse;
+}
+th:nth-child(even),td:nth-child(odd){
+    background-color: aquamarine;
+}
+#ht_id_attribute{
+    color: brown;
+}
+h1{
+    color: purple;
+}
+table tr:nth-child(even){
+    background-color: blue;
+}
+body{background-color: aqua;}
